@@ -5,10 +5,10 @@
 
 Gem::Specification.new do |s|
   s.name = %q{subdomain-fu}
-  s.version = "0.5.4"
+  s.version = "0.5.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Michael Bleigh"]
+  s.authors = ["Michael Bleigh","Robert Meyer"]
   s.date = %q{2010-01-18}
   s.description = %q{SubdomainFu is a Rails plugin to provide all of the basic functionality necessary to handle multiple subdomain applications (such as Basecamp-esque subdomain accounts and more).}
   s.email = %q{michael@intridea.com}
