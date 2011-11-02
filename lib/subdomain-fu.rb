@@ -99,7 +99,7 @@ module SubdomainFu
   end
 
   def self.needs_rewrite?(subdomain, host)
-    return false if host.split('.').size <= tld_size
+    return false if host.blank? || host.split('.').size <= tld_size
     
     case subdomain
       when nil
